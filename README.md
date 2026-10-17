@@ -87,6 +87,7 @@ Stores users, complaints, item records, tokens and request statuses
 The frontend is the part users interact with. The backend processes requests, applies business rules, and communicates with the database. The database maintains the information required for the application to operate.
 For example, when a complaint is submitted, the frontend collects the information, the backend validates and processes it, and the database stores the record. When the student checks the complaint later, the application retrieves the latest status.
 The specific backend and database are not named in the PDF, so their selection should be based on the actual implementation.
+
 10. Modules and Implementation
 The application can be divided into modules, with each module responsible for a particular function.
 Module	Detailed function
@@ -99,6 +100,7 @@ Admin Dashboard	Allows authorized administrators to review requests and manage t
 Implementation involves creating the user interface, connecting the pages, adding the required functionality, and ensuring that the information is processed correctly.
 For instance, the issue-reporting module should accept valid complaint details and provide appropriate feedback after submission. In a fully functional system, the complaint should be stored so the relevant user and authorized staff can access it later.
 Testing should verify that forms work correctly, information is saved and retrieved properly, token generation behaves as expected, and unauthorized users cannot access administrative functions.
+
 11. Expected Results and Conclusion
 The project is expected to make everyday campus operations more organized by bringing complaint reporting, lost-and-found management, and digital queue services into one application.
 The anticipated benefits include:
